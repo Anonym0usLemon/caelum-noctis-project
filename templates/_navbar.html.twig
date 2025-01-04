@@ -1,0 +1,13 @@
+<nav class="margin-inline">
+   <div class="logo">
+      <img src="{{ asset('images/logo2.png') }}" alt="">
+   </div>
+
+   <ul class="navlist">
+      <li><a href="{{ path('home') }}" class="{{ app.request.pathInfo == '/' ? 'active' : '' }}">Home</a></li>
+      <li><a href="{{ path('about') }}" class="{{ app.request.pathInfo == '/about' ? 'active' : '' }}">About</a></li>
+      <li><a href="{{ path('gallery') }}" class="{{ app.request.pathInfo == '/gallery' ? 'active' : '' }}">Gallery</a></li>
+      <li><a href="{{ path('articles') }}" class="{{ app.request.pathInfo == '/products' ? 'active' : '' }}">Articles</a></li>
+      <li><a href="{{ path('products') }}" class="{{ app.request.pathInfo == '/products' ? 'active' : '' }}">Products</a></li>
+   </ul>
+</nav>

@@ -1,0 +1,45 @@
+.gallery-section {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap: 50px;
+   padding-block: 50px;
+   padding-inline: 50px;
+   background-color: rgba(23, 23, 23, 0.5);
+   border-radius: 5px;
+   border: 2px solid rgba(255, 255, 255, 0.3);;
+
+
+   .button-group {
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      width: 100%;
+
+      a {
+      
+      }
+   }
+
+   .image-group {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      grid-auto-rows: 1fr;
+   
+      h2 {
+         text-align: center;
+      }
+   
+      img {
+         height: 397px;
+         width: 397px;
+         object-fit: cover;
+         border: 2px solid rgba(255, 255, 255, 0.2);
+         border-radius: 2px;
+   
+   
+      }
+   }
+}

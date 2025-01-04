@@ -1,0 +1,36 @@
+@font-face {
+   font-family: 'SF Fourche';
+   src: url('../fonts/SFFourche.eot');
+   src: url('../fonts/SFFourche.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/SFFourche.woff2') format('woff2'),
+       url('../fonts/SFFourche.woff') format('woff'),
+       url('../fonts/SFFourche.ttf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'SF Fourche';
+   src: url('../fonts/SFFourche-Bold.eot');
+   src: url('../fonts/SFFourche-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/SFFourche-Bold.woff2') format('woff2'),
+       url('../fonts/SFFourche-Bold.woff') format('woff'),
+       url('../fonts/SFFourche-Bold.ttf') format('truetype');
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Gotham';
+   src: url('../fonts/Gotham-Medium.eot');
+   src: url('../fonts/Gotham-Medium.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Gotham-Medium.woff2') format('woff2'),
+       url('../fonts/Gotham-Medium.woff') format('woff'),
+       url('../fonts/Gotham-Medium.ttf') format('truetype');
+   font-weight: 500;
+   font-style: normal;
+   font-display: swap;
+}
+
